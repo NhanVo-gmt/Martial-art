@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5db3a200495a94082f987bf8b29cef, type: 3}
+  m_Name: D_HitState
+  m_EditorClassIdentifier: 
+  emergencyAbilityList:
+  - {fileID: 11400000, guid: a4d884a3af2bcf14f94f4a961d7027d7, type: 2}
+  weakKnockBackRecoverTime: 0.5
+  mediumKnockBackRecoverTime: 2
+  strongKnockBackRecoverTime: 5
+  velocityDecreaseFactor: 0.5
+  mediumKnockBackVFX: {fileID: 11400000, guid: 21afadd3211ee0340b09d79d87c18f50, type: 2}
+  strongKnockBackVFX: {fileID: 11400000, guid: 960c1dfb562e8e9468c1dd28096858ad, type: 2}
